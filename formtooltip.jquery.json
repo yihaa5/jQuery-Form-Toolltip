@@ -9,7 +9,7 @@
     "form",
     "plugins"
   ],
-  "version": "1.0.0",
+  "version": "0.1.0",
   "author": {
     "name": "Ah Cheng",
     "url": "https://github.com/yihaa5"
@@ -20,10 +20,10 @@
       "url": "http://www.opensource.org/licenses/mit-license.php"
     }
   ],
-  "bugs": "https://github.com/yihaa5/formtooltip/issues",
-  "homepage": "http://wp.ahcheng.com/formtooltip",
-  "docs": "https://github.com/yihaa5",
-  "download": "https://github.com/yihaa5",
+  "bugs": "https://github.com/yihaa5/jQuery-Form-Toolltip/issues",
+  "homepage": "https://github.com/yihaa5/jQuery-Form-Toolltip",
+  "docs": "https://github.com/yihaa5/jQuery-Form-Toolltip",
+  "download": "https://github.com/yihaa5/jQuery-Form-Toolltip/archive/master.zip",
   "demo": "https://github.com/yihaa5/demo",
   "dependencies": {
     "jquery": ">=1.4"
