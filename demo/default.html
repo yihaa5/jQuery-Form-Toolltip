@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form Tooltip Demo</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css"/>
+		<style>
+        	body, input,textarea {
+        		font-family:'Roboto', serif;
+        		font-size:12pt;
+        	}
+        	
+        	input, textarea {
+        		padding: 5px;
+        		font-size: 12pt;
+        	}
+        	
+        	#formname{
+        		margin: 30px;
+        	}
+        </style>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="../src/jquery.formtooltip.js"></script>
+	</head>
+	<body>
+		<form id="formname">
+			<table>
+				<tr>
+					<td>
+						Title
+					</td>
+					<td>
+						<input type="text" value="blank" name="title"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Name
+					</td>
+					<td>
+						<input type="name" value="Blank Name" name="name"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Color
+					</td>
+					<td>
+						<input type="color" value="#000FFF" name="color"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						TextArea
+					</td>
+					<td>
+						<textarea type="month" value="" name="text"></textarea>
+					</td>
+				</tr>
+			</table>
+		</form>
+		
+		<script>
+			$(document).ready(function(){
+				
+				var fields = {
+						
+						title: {
+							tooltip : "This field is actually for bla bla bla...</br>and bla bla bla",
+							position: 'bottom'
+						},
+						name : {
+							tooltip: "This is for fun!!!!",
+							position: 'right',
+							backgroundColor: "#FF0000",
+							color: '#FFFF00'
+							},
+						color : {
+							tooltip: "This is for your cover color~~~ <a href='#'>here</a>"
+							},
+						text : {
+							tooltip: "Please provide your comment here."
+							}
+						};
+				
+				//Include Global Color 
+				$("#formname").formtoolip(fields, { backgroundColor: "#000000" , color : "#FFFFFF", fontSize : 15, padding : 10, borderRadius :  5});
+					
+				});
+			</script>
+	</body>
+</html>
