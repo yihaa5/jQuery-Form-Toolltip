@@ -4,4 +4,8 @@ This JS allows you to add Tooltip calllout (with fadeIn fadeOut animation) to yo
 
 Include the formtooltip.js after the jquery.js file.
 
-run $().formtooltip() function to your form and input the json structure to your form.
+Construct the fields in JSON format:
+  - You are able to specify the individual tooltip CSS
+  - You are able to fadeIn and fadeOut direction. Currently supporting Top, Bottom, Right and Left
+
+run $().formtooltip() function to your form using the constructed JSON.
