@@ -2,11 +2,11 @@ jQuery-Form-Toolltip
 ====================
 This JS allows you to add Tooltip calllout (with fadeIn fadeOut animation) to your form input controls.
 
-Include the formtooltip.js after the jquery.js file.
+Include the jquery.formtooltip.js after the jquery.js file.
 
-Construct the fields in JSON format:
+Construct the input fields configuration in JSON format:
   - You are able to specify the individual tooltip CSS
-  - You are able to fadeIn and fadeOut direction. Currently supporting Top, Bottom, Right and Left
+  - You are able to specify the fadeIn and fadeOut direction. Currently supporting Top, Bottom, Right and Left
 
 e.g.
 
@@ -34,4 +34,4 @@ e.g.
 		
 run $("SELECT YOUR FORM").formtooltip(fields , defaultCSS) function to your form using the constructed JSON.
 
-And that is it.
+And that is it. See Demo here: http://wp.ahcheng.com/wp-content/uploads/jQuery%20Form%20Toolltip/demo/default.html
