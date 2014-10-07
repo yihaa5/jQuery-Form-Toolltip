@@ -8,4 +8,30 @@ Construct the fields in JSON format:
   - You are able to specify the individual tooltip CSS
   - You are able to fadeIn and fadeOut direction. Currently supporting Top, Bottom, Right and Left
 
-run $().formtooltip() function to your form using the constructed JSON.
+e.g.
+
+    var fields = {
+	    title: {
+			tooltip : "This field is actually for bla bla bla...</br>and bla bla bla",
+			position: 'bottom'
+		},
+		name : {
+			tooltip: "This is for fun!!!!",
+			position: 'right',
+			backgroundColor: "#FF0000",
+			color: '#FFFF00'
+			},
+		color : {
+			tooltip: "This is for your cover color~~~ <a href='#'>here</a>"
+			},
+		text : {
+			tooltip: "Please provide your comment here."
+			}
+		};
+		
+		
+		var defaultCSS = { backgroundColor : "#000000", color : "#FFFFFF", borderRadius : 10 };
+		
+run $("SELECT YOUR FORM").formtooltip(fields , defaultCSS) function to your form using the constructed JSON.
+
+And that is it.
