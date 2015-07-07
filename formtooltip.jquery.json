@@ -4,6 +4,7 @@
   "description": "A plugin to enable animated, customisable tooltip on your form inputs when focusing. ",
   "keywords": [
     "jquery",
+	"jquery-plugin",
     "formtooltip",
     "tooltip",
     "form",
