@@ -28,10 +28,10 @@ e.g.
 			tooltip: "Please provide your comment here."
 			}
 		};
-		
-		
+
+
 		var defaultCSS = { backgroundColor : "#000000", color : "#FFFFFF", borderRadius : 10 };
-		
-run $("SELECT YOUR FORM").formtool/Users/yihaa_5/Desktop/ahCheng/Demo/Spotify/default.htmltip(fields , defaultCSS) function to your form using the constructed JSON.
+
+run $("SELECT YOUR FORM").formtooltip(fields , defaultCSS) function to your form using the constructed JSON.
 
 And that is it. See Demo here: http://wp.ahcheng.com/wp-content/uploads/jQuery%20Form%20Toolltip/demo/default.html
